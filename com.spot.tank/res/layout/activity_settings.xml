@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListPreference
+        android:defaultValue="@string/def_val"
+        android:entries="@array/mode_human"
+        android:entryValues="@array/mode_prefs"
+        android:key="battle_t_mode"
+        android:title="Game Mode" />
+
+</PreferenceScreen>

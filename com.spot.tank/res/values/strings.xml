@@ -4,5 +4,19 @@
     <string name="hello_world">Battle.T.</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_rusher">BattleT</string>
+    
+    <string name="def_val">pref_empty</string>
+
+    <string-array name="mode_human">
+        <item>Empty</item>
+        <item>Ring</item>
+        <item>Square</item>
+    </string-array>
+    
+    <string-array name="mode_prefs">
+        <item>@string/def_val</item>
+        <item>pref_ring</item>
+        <item>pref_square</item>
+    </string-array>
 
 </resources>
