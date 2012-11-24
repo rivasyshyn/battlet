@@ -1,14 +1,10 @@
 package com.example.com.spot.tank.screens;
 
-import test.aa;
-import test.bb;
-import test.cc;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -26,21 +22,7 @@ public class RusherActivity extends Activity implements
 		setContentView(R.layout.activity_rusher);
 
 		mStageView = (StageView) findViewById(R.id.stageView1);
-		cc callback = new cc() {
-
-			@Override
-			public void onCall(int number) {
-				Log.d("callback", "" + number);
-			}
-
-		};
-
-		aa A = new aa();
-		A.setCallback(callback);
-		bb B = new bb();
-		B.setCallback(A.getCallback());
-		B.call(5);
-		A.call(10);
+		
 	}
 
 	@Override
